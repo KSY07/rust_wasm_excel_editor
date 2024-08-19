@@ -1,0 +1,9 @@
+[package]
+name = "biz_excel_js"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+calamine = "0.25"
+wasm-bindgen = "0.2"
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
